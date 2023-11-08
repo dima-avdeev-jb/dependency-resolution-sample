@@ -7,9 +7,7 @@ Take a look at [build.gradle.kts](shared%2Fbuild.gradle.kts)
 ```Kotlin
 configurations.all {
     resolutionStrategy {
-        force(
-            "org.jetbrains.compose.ui:ui:0.0.0-dev1260",
-        )
+        force("org.jetbrains.compose.ui:ui:0.0.0-dev1260")
     }
 }
 ```
