@@ -66,3 +66,11 @@ android {
         jvmToolchain(17)
     }
 }
+
+configurations.all {
+    resolutionStrategy {
+        force(
+            "org.jetbrains.compose.ui:ui:0.0.0-dev1260",
+        )
+    }
+}
